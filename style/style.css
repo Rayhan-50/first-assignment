@@ -1,0 +1,376 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+.hero{
+    background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 652px;
+}
+.hero-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero>h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.hero>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.hero-btn{
+   display: flex;
+   justify-content: center;
+
+}
+.btn{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+text-align: center;
+border-radius: 8px;
+padding: 15px;
+background: rgb(13, 19, 33);
+}
+/*web development  */
+.web-development{
+    background: rgba(13, 19, 33, 0.03);
+    width: 85%;
+    margin: 100px auto;
+    padding: 73px 88px 73px 87px;
+}
+.web-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin-left: 150px;
+    margin-bottom: 45px;
+}
+.web-title>h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.web-title>p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+display: flex;
+gap: 95px;
+background-color: white;
+width: 930px;
+padding: 45px;
+}
+.text-part{
+
+}
+.text-part>h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.text-part>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.text-part>button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;  
+}
+/* inspiration */
+
+.inspiration{
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.inspiration>h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center; 
+}
+.inspiration>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 800px;
+}
+/* youtube */
+.youtubeVideo{
+    padding: 20px;
+    border: 2px solid  rgba(13, 19, 33, 0.08);
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin-top: 40px;
+    width: 1000px;
+    height: 550px;
+
+}
+/* CURRENT TARGET */
+.target{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.current-target{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 200px;
+}
+.current-target>h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center; 
+}
+.current-target>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 800px;
+}
+/* target card */
+.target-card-container{
+    display: flex;
+    gap: 15px;
+    margin: 100px auto;
+}
+/* html */
+.target-card{
+    border-radius: 16px;
+    width: 280PX;
+    padding: 40PX;
+
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-card>h2{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 21px;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: left;
+}
+.target-card>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.target-card >a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+/* css */
+.target-card-css{
+    border-radius: 16px;
+    width: 280PX;
+    padding: 40PX;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.target-card-css>h2{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 21px;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: left;
+}
+.target-card-css>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.target-card-css >a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+/* js */
+.target-card-js{
+    border-radius: 16px;
+    width: 280PX;
+    padding: 40PX;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.target-card-js>h2{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 21px;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: left;
+}
+.target-card-js>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.target-card-js >a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+/* support section */
+.support{
+    background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
+    width: 1100px;
+    height: 300px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.support>h1{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 29px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.support>p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+/* input text */
+
+ .subscribe-container {
+   padding-top: 20px;
+    }
+    .subscribe-input {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        
+    }
+    .subscribe-button {
+        padding: 13px 20px;
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        
+        
+    }
+    .footer-part{
+        background: rgba(13, 19, 33, 0.08);
+        padding: 20px 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .icons{
+        display: flex;
+        gap: 20px;
+    }
